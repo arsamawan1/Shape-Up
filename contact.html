@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Clean Blog - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body style="background-image: url('img/back2.jpeg');">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-lg" style="background-image: url('img/back.jpeg');">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/finalize.png" style="width: 90px; height: 40px; "></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">blogs</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Genre
+            </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="weightgain.html">weight-gain</a></li>
+                            <li><a class="dropdown-item" href="weightloss.html">weight-loss</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/new2.jpg')">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="page-heading">
+                        <h1>Contact Me</h1>
+                        <span class="subheading">Have questions? I have answers.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+                <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+                <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+                <!-- To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Email Address</label>
+                            <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label>Phone Number</label>
+                            <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls">
+                            <label>Message</label>
+                            <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="success"></div>
+                    <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!----------------------------------------------------- Footer ----------------------------------------------------------->
+
+    <footer class="section footer-classic context-dark bg-image p-5" style="background-image: url('img/back.jpeg');">
+        <div class="container">
+            <div class="row row-30">
+                <div class="col-md-4 col-xl-5">
+                    <div class="pr-xl-4">
+                        <ul style="color:black;">
+                            <li>
+                                <h5 style="padding-bottom: 10px;">Access</h5>
+                            </li>
+                            <li>
+                                <h6>-Diet plan</h6>
+                            </li>
+                            <li>
+                                <h6>-Workout schedule</h6>
+                            </li>
+                            <li>
+                                <h6>-Fitness Goals</h6>
+                            </li>
+                            <li>
+                                <h6>-Fat percentage calculator</h6>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5 style="color:black;">Contacts</h5>
+                    <dl class="contact-list" style="color:black;">
+                        <dt>Address:</dt>
+                        <dd>MUET, jamshoro</dd>
+                    </dl>
+                    <dl class="contact-list" style="color:black;">
+                        <dt>email:</dt>
+                        <dd><a href="mailto:#" style="color:black;">shapeup@gmail.com</a></dd>
+                    </dl>
+                    <dl class="contact-list">
+                        <dt style="color:black;">phones:</dt>
+                        <dd>
+                            <h6 style="color:black;">+92-xxxxxxxxxx</h6>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="col-md-4 col-xl-3">
+                    <h5 style="color:black;">Links</h5>
+                    <ul class="nav-list" style="color:black;">
+                        <li><a href="#" style="color:black;">About Us</a></li>
+                        <li><a href="#" style="color:black;">Terms and conditions</a></li>
+                        <li><a href="#" style="color:black;">License</a></li>
+                        <li><a href="#" style="color:black;">Privacy Policy</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class=" row no-gutters social-container ">
+            <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span style="color:black;"><img src="img/facebook (2).png" style="width: 40px; height: 40px;"></span></a></div>
+            <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span style="color:black;"><img src="img/twitter (1).png" style="width: 40px; height: 40px;"></span></a></div>
+            <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span style="color:black;"><img src="img/instagram (2).png" style="width: 40px; height: 40px;"></span></a></div>
+            <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span style="color:black;"><img src="img/linkedin.png" style="width: 40px; height: 40px;"></span></a></div>
+
+        </div>
+    </footer>
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-image: url('img/back2.jpeg'); color: rgb(125, 125, 125);" style="color: rgb(125, 125, 125);">
+        © 2020 Copyright:
+        <a class="text-lg" href="#" style="color: rgb(125, 125, 125);">SHAPE-UP</a>
+    </div>
+    <!-- Copyright -->
+
+    <!----------------------------------------------- END ---------------------------------------------->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!--  scripts  -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
